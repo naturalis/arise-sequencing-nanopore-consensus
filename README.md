@@ -18,6 +18,7 @@ Consensus calling is done with NGSpeciesID.\
 Fasta headers and filenames were replaced using a [name_code_index file]()\
 Primers of renamed consensus sequences were trimmed using Cutadapt;\
 sequence orientation was corrected (revcomp) if necessary.
+From within the folder of demultiplexed fastqs run:
 
 `./ont_consensus.sh $1 $2 $3`
 
