@@ -23,3 +23,8 @@ From within the folder of demultiplexed fastqs run:
 `./ont_consensus.sh $1 $2 $3`
 
 $1 = name_code_index.txt, $2 = forward primer, $3 = revcomp of reverse primer
+
+## blast search consensus sequences
+Blast searches were done against the fungi.fas reference dataset using blastn in Galaxy. All sequences had 100% coverage and the average identity was%. A [summary of the blast results]() suggests something might have gone wrong with the indices in the wetlab.
+
+The output [fungi_blast_results.xlsx]() has been added to the Arise sequencing folder.
