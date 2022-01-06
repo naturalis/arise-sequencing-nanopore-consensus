@@ -13,7 +13,7 @@ Requirement: conda (anaconda/miniconda)
 `conda install -c bioconda prinseq cutadapt seqtk`
 
 ## consensus calling
-The following command filters reads 25 nt above and below the median with Prinseq.\
+The following command filters reads 25 nt above and below the median of read lengths with Prinseq.\
 Consensus calling is done with NGSpeciesID.\
 Fasta headers and filenames were replaced using a [name_code_index file](https://github.com/naturalis/arise-sequencing-nanopore-consensus/blob/main/index_files/name_code_index_fungi.txt)\
 Primers of renamed consensus sequences were trimmed using Cutadapt;\
