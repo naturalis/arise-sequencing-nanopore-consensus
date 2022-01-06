@@ -25,7 +25,7 @@ From within the folder of demultiplexed fastqs run:
 $1 = name_code_index.txt, $2 = forward primer, $3 = revcomp of reverse primer\
 [The ont_consensus.sh script is located here](https://github.com/naturalis/arise-sequencing-nanopore-consensus/tree/main/scripts/ont_consensus.sh)
 
-The output files (fungi) have been concatenated into a [single fasta file]().
+The output file (out_trimmed.fasta) has been added as [out_trimmed_fungi.fasta]() to the metadata folder.
 
 ## blast search consensus sequences
 Blast searches were done against the fungi.fas reference dataset using blastn in Galaxy. All sequences had 100% coverage and the average identity was%. A [summary of the fungi blast results](https://github.com/naturalis/arise-sequencing-nanopore-consensus/blob/main/metadata/fungi_blast.md) suggests something might have gone wrong with the indices in the wetlab.
