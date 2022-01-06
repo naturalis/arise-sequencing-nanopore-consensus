@@ -28,4 +28,4 @@ $1 = name_code_index.txt, $2 = forward primer, $3 = revcomp of reverse primer\
 ## blast search consensus sequences
 Blast searches were done against the fungi.fas reference dataset using blastn in Galaxy. All sequences had 100% coverage and the average identity was%. A [summary of the fungi blast results](https://github.com/naturalis/arise-sequencing-nanopore-consensus/blob/main/metadata/fungi_blast.md) suggests something might have gone wrong with the indices in the wetlab.
 
-The output [fungi_blast_results.xlsx]() has been added to the Arise sequencing folder.
+The output [fungi_blast_results.xlsx](https://docs.google.com/spreadsheets/d/1O1ae-nSbFfYfkCb8iElj5CIIvgTfNb5V/edit?usp=sharing&ouid=109237925768461347094&rtpof=true&sd=true) has been added to the Arise sequencing folder.
