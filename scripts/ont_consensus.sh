@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # calculate number of reads and median of read lengths for all fastq files in folder
 # medians seem to increase with a decreasing number of reads
